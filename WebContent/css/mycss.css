@@ -1,0 +1,131 @@
+@CHARSET "ISO-8859-1";
+#menubar a:link{
+	text-decoration: none;
+} 
+
+#menubar ul {
+	background-color: purple;
+	text-align: center;
+	padding-top: 2px;
+	padding-bottom: 2px;
+	margin-top: 2px;
+}
+
+#menubar li {
+	display: inline-block;
+	border-right: 1px solid white;
+	border-left: 1px solid white;
+	padding-left: 10px;
+	padding-right: 10px;
+}
+
+#hostcamau, #tpcamau, #uminh, #thoibinh, #cainuocphutan, #damdoi, #namcanngochien, #tranvanthoi {
+	color: white;
+	font-size: 16px;
+	font-weight: bold;
+}
+
+#update {
+	color: white;
+	font-size: 12px;
+	font-weight: bold;
+}
+
+#thongke {
+	color: white;
+	font-size: 12px;
+	font-weight: bold;
+}
+
+
+#clear_menubar, #clear_content {
+	clear: both;
+}
+
+#tbl {
+	border-collapse: collapse;
+	cellpadding: 5px;
+}
+
+.stt  {
+	width: 30px;
+	align: center;
+}
+
+.name  {
+	width: 250px;
+	align: center;
+	
+}
+
+.address {
+	width: 120px;
+	align: center;
+	
+}
+
+.manufacture  {
+	width: 100px;
+	align: center;
+}
+
+.type  {
+	width: 70px;
+	align: center;
+	
+}
+
+.vlanhsi  {
+	width: 70px;
+	align: center;
+	
+}
+
+.ctrlboard  {
+	width: 70px;
+	align: center;
+	
+}
+
+.pon8  {
+	width: 70px;
+	align: center;
+	
+}
+
+.pon16  {
+	width: 70px;
+	align: center;
+	
+}
+
+.used  {
+	width: 70px;
+	align: center;
+	color: red;
+}
+
+.uplink  {
+	width: 200px;
+	align: center;
+	
+}
+
+.upto  {
+	width: 200px;
+	align: center;
+	
+}
+table, td, th {
+	border: 1px solid black;
+}
+td, th	{
+	text-align: center;
+	vertical-align: middle;
+}
+h1 {
+	color: blue;
+	font-size: 22px;
+	font-weiht: bold;
+	text-align: center;
+}
