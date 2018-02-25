@@ -94,7 +94,6 @@ public class Update extends HttpServlet {
 			
 				if (manufacture.equals("ZTE")) {
 //					out.println("IP: " + ip + "</br>");
-											
 					countZTE = 0;
 					ctrl_zte = 0;
 					pon8_zte = 0;
@@ -147,13 +146,10 @@ public class Update extends HttpServlet {
 					ctrl = ctrl_zte;
 					
 //					out.println("Count :  " + count + "</br>" );
-
 					
 				}
 
 				if (manufacture.equals("Huawei")) {
-					
-
 					countHW = 0;
 					pon8_hw = 0;
 					pon16_hw = 0;
@@ -168,8 +164,7 @@ public class Update extends HttpServlet {
 						};
 
 					};
-					
-
+		
 					for (int i = 0; i < ctrlboard_hw.length; i++) {
 						String tmp = snmpobj.doSnmpGet(ip, community, ctrlboard_hw[i]);
 //						out.println("CtrlBoard: " + tmp + "</br>");
@@ -192,7 +187,6 @@ public class Update extends HttpServlet {
 					};
 					
 //					out.println("Pon8: " + pon8_hw + " . Pon16: " + pon16_hw + "</br>");
-					
 					count = countHW;
 					pon8 = pon8_hw;
 					pon16 = pon16_hw;
